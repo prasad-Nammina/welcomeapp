@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+  height: 100vh;
+}
+.heading {
+  color: #f0bb03;
+  margin-bottom: 10px;
+  font-size: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 96px;
+  }
+}
+.para {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 36px;
+  }
+}
+.btn-style {
+  background-color: #fff;
+  color: #1e293b;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .btn-style {
+    font-size: 18px;
+  }
+}
